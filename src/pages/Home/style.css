@@ -1,0 +1,17 @@
+body{
+    background: #111;
+}
+.container{
+    margin:14px 0px;
+}
+.container h1{
+    color: #ffc709;
+}
+.loading{
+    color:#FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:30px;
+    font-size:22px;
+}

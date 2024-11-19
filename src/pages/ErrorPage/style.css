@@ -1,0 +1,16 @@
+.ErrorPage{
+    color:#FFF;
+    display: flex;
+    align-items: center;;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100vh - 60px);
+}
+.btn_voltar{
+    background: rgb(26, 26, 165);
+    color:#FFF;
+    padding:20px;
+    display: inline-block;
+    margin:14px;
+    border-radius:2px;
+}

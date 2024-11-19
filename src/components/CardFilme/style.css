@@ -1,0 +1,29 @@
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-card {
+    text-align: center;
+    padding: 20px;
+    border-radius: 3px;
+    width: 33.3333333333333333333%;
+}
+
+.item-card img {
+    width: 200px;
+}
+
+.item-card h3 {
+    display: block;
+    color: #FFF
+}
+.btn_filme{
+    background-color: #ffc709;
+    padding: 10px 40px;
+    border-radius: 4px;
+    color: #111;
+    display: inline-block;
+    margin: 20px 0px;
+    font-weight: bold;
+}
