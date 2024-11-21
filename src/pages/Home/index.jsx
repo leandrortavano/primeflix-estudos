@@ -12,7 +12,6 @@ function Home() {
 
     useEffect(() => {
 
-
         async function loadData() {
             const response = await api.get("movie/now_playing", {
                 params: {

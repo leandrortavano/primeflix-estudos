@@ -1,0 +1,40 @@
+.filme {
+    display: flex;
+    color: #FFF;
+    background-color: black;
+    width: 900px;
+    margin: 10px auto;
+    padding: 20px;
+    align-items: self-start;
+    justify-content: space-evenly;
+}
+
+.filme img {
+    width: 200px;
+}
+
+.filme .overview {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.area-buttons{
+    margin:20px 0px;
+}
+.area-buttons button{
+    margin-right:20px;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+    transition: all 0.5s;
+    border-radius:20px;
+}
+.area-buttons button a{
+    color:#000;
+    text-decoration: none;
+}
+.area-buttons button:hover{
+    background: yellow;
+
+}
