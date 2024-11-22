@@ -1,6 +1,6 @@
 import './style.css';
 import { FaRegStar } from "react-icons/fa";
-
+import { toast } from 'react-toastify';
 
 
 function DetailMovie(props) {
@@ -15,13 +15,15 @@ function DetailMovie(props) {
 
 
         if (hasFilme) {
-            alert('Filme já está na sua lista de favoritos!');
+            
+            toast.warn("Este filme já está nos seus favoritos!");
+
             return;
         }
 
         filmesFavoritos.push(props.dados);
         localStorage.setItem("@primeFlix", JSON.stringify(filmesFavoritos));
-        alert('Lista de Favoritos atualizada!');
+        toast.success("FIlme adicionado com sucesso!");
 
     }
 

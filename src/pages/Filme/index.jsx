@@ -35,7 +35,7 @@ function Filme() {
 
                 })
                 .catch(() => {
-                    console.log("FIlme nao encontrado!");
+                    console.log("Filme nao encontrado!");
                     navigate("/404", {replace: true});
                     return;
                 });
